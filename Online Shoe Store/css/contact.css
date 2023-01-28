@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+  
+.slider {
+    background: url("header.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.bottom{
+    text-align: center;
+    padding: 0% 15% 1% 15%;
+    font-size: 22px;
+}
+
+.contactbg{
+    height: 300px;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    font-size: 20px;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.contactlink:link {
+    color: white;
+    font-size: 20px;
+}
+
+.contactlink:visited {
+    color: white;
+}
+  
+.contactlink:hover {
+    color: rgb(94, 210, 245);
+}
+  
+.contactlink:active {
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 25px;
+    border-color: rgb(97, 97, 97);
+}
+
+th {
+    height: 50px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 7px;
+    border-color: rgb(97, 97, 97);
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-width: 7px;
+    border-color: rgb(97, 97, 97);
+}
+
+footer {
+    display: flex;
+    background-color: rgb(223, 219, 219);
+    flex-direction: column;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.fIcons{
+    display: flex;
+}
+
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright{
+    font-weight: 200;
+    font-size: 12px;
+}

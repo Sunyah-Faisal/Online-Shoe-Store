@@ -1,0 +1,156 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.checkoutpg{
+  background-image: url("header.jpg");
+  height: 900px;
+  backdrop-filter: blur(4px);
+}
+
+.gmailButton {
+  position: absolute;
+  bottom: 10%;
+  right: 42%;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 18px;
+  border-color: white;
+  border-width: 2px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.gmailButton:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.homeButton {
+  position: absolute;
+  bottom: 10%;
+  left: 42%;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 18px;
+  border-color: white;
+  border-width: 2px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.homeButton:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.orderMsg {
+  text-align: center;
+  padding: 10px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 25px;
+  font-weight: 1000;
+  color: black;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+}
+.orderh1 {
+  text-align: center;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 25px;
+  border-color: rgb(46, 46, 46);
+}
+
+th {
+  height: 50px;
+  width: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: gray;
+  color: black;
+  border-width: 7px;
+  border-color: rgb(46, 46, 46);
+}
+
+td {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(188, 185, 189);
+  color: black;
+  border-width: 7px;
+  border-color: rgb(46, 46, 46);
+}
+
+footer {
+  display: flex;
+  background-color: rgb(223, 219, 219);
+  flex-direction: column;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright{
+  font-weight: 200;
+  font-size: 12px;
+}
